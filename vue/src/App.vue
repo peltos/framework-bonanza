@@ -25,7 +25,7 @@
         </ul>
 
         <h3 class="text-xl capitalize">abilities</h3>
-        <ul class="">
+        <ul>
           <li v-for="(ability) in data.abilities" class="relative grid gap-2">
             <p class="capitalize relative z-10">{{ ability.ability.name }}</p>
           </li>
@@ -37,7 +37,6 @@
       <p v-if="error">
         {{ error }}
       </p>
-
     </div>
   </div>
   <div class="hidden bg-red-500 bg-orange-500 bg-yellow-500 bg-green-500 bg-blue-500 bg-purple-500"></div>
